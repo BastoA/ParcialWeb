@@ -1,0 +1,105 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+
+.calculadora {
+	background-color: #e2e2e2;
+	width: fit-content;
+	margin: auto;
+	margin-top: 35px
+}
+
+.sr {
+	padding: 0px 18px 18px 18px;
+}
+
+.codigo {
+	padding: 0px 18px 18px 18px;
+}
+
+.sr button {
+	width: 100%;
+	background-color: #00C0ff;
+	color: #fff;
+	border: none;
+	font-size: 50px;
+	padding: 0px
+}
+
+.codigo button {
+	width: 100%;
+	background-color: #0291fb;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	padding: 10px
+}
+
+.teclas {
+	display: flex;
+}
+
+.pantalla {
+	padding: 18px 18px 0px 18px;
+}
+
+.numeros {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 18px 9px 18px 18px;
+}
+
+#ce{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8.4%;
+}
+
+.op {
+	padding: 18px 18px 18px 9px
+}
+
+#resultado {
+	background-color: #666;
+	color: #eee;
+	padding: 20px;
+	font-family: monospace;
+	font-size: 20px
+}
+
+.op button {
+	display: block;
+	width: 54px;
+	height: 54px;
+	padding: 9px 15px;
+	background-color: #0291fb;
+		color: #fff;
+	border: none;
+}
+
+.numeros div{
+    text-align: center;
+}
+
+.numeros button {
+	border: 0px;
+	background-color: #00C0ff;
+	transition: all 0.09s
+}
+#codigo {
+	background-color: #f7b45d;
+}
+.numeros button:hover {
+	box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+	margin: 2px 0px;
+	padding: 15px 24px;
+	font-size: 19px;
+}
